@@ -1,2 +1,2 @@
 #!/bin/bash
-cat fgit | cut -c1 | tr -d "\n"; echo
+cat fgit | cut -c1 | paste -sd ""
